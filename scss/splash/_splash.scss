@@ -1,0 +1,38 @@
+.splash {
+    font-size: rem(14);
+    font-weight: 500;
+    margin-top: 10vh;
+    opacity: 0;
+    transform: translateY(rem(40));
+    transition: 0.5s opacity, 0.5s transform;
+
+    .active & {
+        transform: none;
+        opacity: 1;
+    }
+
+    .text {
+        max-width: rem(280);
+    }
+
+    h1 {
+        font-size: rem(18);
+    }
+
+    p {
+        margin: rem(25) 0 rem(30);
+    }
+
+    li + li {
+        margin-top: rem(10);
+    }
+
+    a {
+        color: $primary;
+        transition: 0.2s color;
+
+        &:hover {
+            color: #283d65;
+        }
+    }
+}

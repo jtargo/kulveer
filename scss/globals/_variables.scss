@@ -1,0 +1,22 @@
+// Colors
+$white: #fff;
+$black: #000;
+$headings: #14171b;
+$text: #7a7d82;
+$primary: #304b7c;
+$bg: #f1f1f4;
+
+// fonts
+$font: 'Space Grotesk', sans-serif;
+
+// Breakpoints
+$tinybp: rem(374);
+$smallbp: rem(500);
+$smbp: rem(640);
+$mediumbp: rem(800);
+$largebp: rem(960);
+$xlargebp: rem(1100);
+
+// Transitions
+$fadeOffTransition: left 0s 0.15s, opacity 0.15s;
+$fadeOnTransition: left 0s, opacity 0.15s;
