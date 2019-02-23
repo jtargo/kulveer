@@ -1,5 +1,5 @@
 .splash {
-    font-size: rem(14);
+    font-size: rem(15);
     font-weight: 500;
     margin-top: 10vh;
     opacity: 0;
@@ -12,11 +12,12 @@
     }
 
     .text {
-        max-width: rem(280);
+        max-width: rem(300);
     }
 
     h1 {
         font-size: rem(18);
+        font-weight: bold;
     }
 
     p {
@@ -29,10 +30,11 @@
 
     a {
         color: $primary;
-        transition: 0.2s color;
+        display: inline-block;
+        transition: 0.2s transform;
 
         &:hover {
-            color: #283d65;
+            transform: translateX(3px);
         }
     }
 }
